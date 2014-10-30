@@ -1,7 +1,9 @@
 fix-playa-field-data
 ====================
 
-Sometimes you might find that the field data stored for a [Pixel and Tonic Playa](http://devot-ee.com/add-ons/playa) field in the exp_channel_data table does not directly correlate to the actual relationships in exp_playa_relationships. This becomes a problem if you want to search the field in question using an add-on like Low Search. If the data in the custom_field does not match that in the relationships table then you're screwed. This plug-in helps to fix that.
+Sometimes you might find that the field data stored for a [Pixel and Tonic Playa](http://devot-ee.com/add-ons/playa) field in the exp_channel_data table does not directly correlate to the actual relationships in exp_playa_relationships.
+
+This becomes a problem if you want to search the field in question using an add-on like Low Search. If the data in the custom_field does not match that in the relationships table then you're screwed. This plug-in helps to fix that.
 
 Pass the field_id which requires fixing and this plug-in will loop over all corresponding entries and relationships and repair the Playa field data in that field using the exp_playa_relationships table as a reference.
 
