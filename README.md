@@ -5,6 +5,6 @@ Sometimes you might find that the field data stored for a Playa field in the exp
 
 Pass the field_id which requires fixing and this plug-in will loop over all corresponding entries and relationships and repair the Playa field data in that field using the exp_playa_relationships table as a reference.
 
-  {exp:nf_fix_playa_field_data field_id="59"}
+`{exp:nf_fix_playa_field_data field_id="59"}`
 
 The behaviour of this plug-in is not reversable. You should take a backup of your database before using the plug-in in a live environment.
